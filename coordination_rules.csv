@@ -1,0 +1,9 @@
+rule,gold,accuracy,precision,recall,p_symmetry
+A_any_conj_or_cc,coord_any,0.74,0.433,0.975,0.002
+A_any_conj_or_cc,coord_clause,0.58,0.067,1.0,0.0
+B_excl_discourse,coord_any,0.805,0.507,0.95,0.004
+B_excl_discourse,coord_clause,0.655,0.08,1.0,0.001
+C_predicate,coord_any,0.875,0.692,0.675,0.67
+C_predicate,coord_clause,0.815,0.103,0.667,0.274
+D_clause_with_subject,coord_any,0.79,0.417,0.125,0.386
+D_clause_with_subject,coord_clause,0.95,0.333,0.667,0.101

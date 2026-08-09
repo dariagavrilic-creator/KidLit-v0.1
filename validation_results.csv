@@ -1,0 +1,8 @@
+task,tool,n_units,n_texts,accuracy,ci_low,ci_high,accuracy_rus_o,accuracy_rus_t,p_symmetry,symmetry_test
+sentence segmentation,razdel,200,40,1.0,,,1.0,1.0,,
+tokenisation,razdel,2042,40,0.9985,0.9962,1.0,1.0,0.9969,0.1077,Fisher
+POS tagging,spaCy ru_core_news_sm,309,40,0.8641,0.8281,0.8966,0.831,0.8922,0.1619,chi-squared
+coordination flag (superseded rule),spaCy ru_core_news_sm,200,40,0.74,0.68,0.795,0.64,0.84,0.0022,chi-squared
+POS tagging (UD-ambiguous pairs allowed),spaCy ru_core_news_sm,309,40,0.9223,,,0.9014,0.9401,0.292,chi-squared
+"POS tagging, onomatopoeia tokens",spaCy ru_core_news_sm,2,1,0.5,,,,,,
+"POS tagging, diminutive tokens",spaCy ru_core_news_sm,8,8,0.625,,,,,,
