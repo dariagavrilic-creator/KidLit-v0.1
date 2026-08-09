@@ -1,0 +1,18 @@
+metric_id,metric_label,n_rus_o,n_rus_t,mean_rus_o,mean_rus_t,sd_rus_o,sd_rus_t,t_statistic,cohens_d,p_ttest,p_mwu,p_adj_bh,p_adj_holm,significance_bh,higher_in
+analyticity_index,Analyticity index (function words),50,50,0.1759,0.1632,0.0205,0.023,2.897,0.579,0.004652,0.004861,0.079079,0.079079,ns,RUS-O
+adjectivity_index,Adjectivity index,50,50,0.055,0.0482,0.0183,0.018,1.879,0.376,0.063208,0.049845,0.358181,0.984576,ns,RUS-O
+short_adj_ratio,Short adjectives,50,50,0.0079,0.0094,0.0031,0.0048,-1.891,-0.378,0.061536,0.108972,0.358181,0.984576,ns,RUS-T
+predicative_ratio,Predicatives,50,50,0.0051,0.0066,0.0025,0.0059,-1.648,-0.33,0.102476,0.406061,0.435523,1.0,ns,RUS-T
+genitive_ratio,Genitive case forms,50,50,0.0509,0.047,0.0168,0.015,1.223,0.245,0.224178,0.505888,0.635172,1.0,ns,RUS-O
+pronominality_index,Pronominality index,50,50,0.088,0.0932,0.0177,0.0228,-1.262,-0.252,0.209801,0.256781,0.635172,1.0,ns,RUS-T
+verbality_index,Verbality index,50,50,0.1464,0.1428,0.0189,0.0189,0.956,0.191,0.341632,0.271522,0.725967,1.0,ns,RUS-O
+infinitive_ratio,Infinitives,50,50,0.0213,0.0228,0.0067,0.0089,-0.975,-0.195,0.331798,0.583652,0.725967,1.0,ns,RUS-T
+noun_verb_ratio,Noun-to-verb ratio,50,50,1.5817,1.6333,0.4512,0.3408,-0.645,-0.129,0.520271,0.177741,0.802202,1.0,ns,RUS-T
+nominal_vocab_index,Nominal vocabulary index,50,50,0.2824,0.2794,0.0409,0.0391,0.376,0.075,0.707825,1.0,0.802202,1.0,ns,RUS-O
+substantivity_index,Substantivity index,50,50,0.2246,0.2284,0.0376,0.0319,-0.555,-0.111,0.580202,0.4219,0.802202,1.0,ns,RUS-T
+full_participle_ratio,Full participles,50,50,0.0026,0.0024,0.0022,0.0036,0.431,0.086,0.667347,0.048821,0.802202,1.0,ns,RUS-O
+gerund_ratio,Gerunds,50,50,0.0033,0.003,0.0035,0.0028,0.394,0.079,0.694449,0.881769,0.802202,1.0,ns,RUS-O
+short_participle_ratio,Short participles,50,50,0.0011,0.0012,0.0012,0.0018,-0.382,-0.076,0.703615,0.378755,0.802202,1.0,ns,RUS-T
+particle_ratio,Particles,50,50,0.0349,0.0335,0.0077,0.0137,0.651,0.13,0.516808,0.115202,0.802202,1.0,ns,RUS-O
+numeral_ratio,Numerals,50,50,0.0053,0.0051,0.0039,0.0045,0.236,0.047,0.813606,0.514638,0.864457,1.0,ns,RUS-O
+instrumental_ratio,Instrumental case forms,50,50,0.028,0.0283,0.0103,0.0114,-0.135,-0.027,0.892718,0.906705,0.892718,1.0,ns,RUS-T

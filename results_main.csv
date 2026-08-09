@@ -1,0 +1,36 @@
+group,metric_id,metric_label,n_rus_o,n_rus_t,mean_rus_o,mean_rus_t,sd_rus_o,sd_rus_t,cohens_d,p_ttest,p_mwu,p_adj_bh,p_adj_holm,significance_bh,higher_in
+Volume,n_words,Word count,50,50,2066.98,698.08,2019.3317,644.5438,0.913,1.4e-05,0.0,9e-06,9e-06,***,RUS-O
+Volume,n_sentences,Sentence count,50,50,277.8,91.44,330.2836,84.625,0.773,0.0002,2.1e-05,0.000245,0.000694,***,RUS-O
+Volume,pages,Pages,50,50,41.72,34.56,15.8372,18.2378,0.419,0.038654,0.001072,0.005362,0.031098,**,RUS-O
+Lexical diversity,ttr,TTR,50,50,0.5725,0.6643,0.115,0.0996,-0.854,4.5e-05,0.00014,0.00122,0.004468,**,RUS-T
+Lexical diversity,sttr,STTR,50,50,0.6208,0.6688,0.0877,0.0933,-0.529,0.00946,0.016283,0.071238,0.455923,ns,RUS-T
+Lexical diversity,hapax_ratio,Hapax ratio,50,50,0.4231,0.5265,0.1274,0.1243,-0.822,8.2e-05,0.000174,0.00122,0.005402,**,RUS-T
+Lexical diversity,yule_k,Yule K index,50,50,248.9135,248.3324,190.854,153.2422,0.003,0.986639,0.622078,0.814493,1.0,ns,RUS-O
+Lexical diversity,shannon_h,Shannon entropy,50,50,8.204,7.1954,0.9724,0.8568,1.101,0.0,2e-06,3.9e-05,7.5e-05,***,RUS-O
+Lexical diversity,top1000_ratio,Top-1000 ratio,50,50,0.3578,0.3596,0.0308,0.0495,-0.043,0.830675,0.651595,0.814493,1.0,ns,RUS-T
+POS profile,pos_noun_ratio,Nouns,50,50,0.2347,0.2363,0.0393,0.0388,-0.04,0.841109,0.903974,0.988722,1.0,ns,RUS-T
+POS profile,pos_verb_ratio,Verbs,50,50,0.1922,0.1891,0.0237,0.0254,0.13,0.517792,0.681666,0.8227,1.0,ns,RUS-O
+POS profile,pos_adj_ratio,Adjectives,50,50,0.0757,0.0672,0.0219,0.0237,0.371,0.066455,0.050651,0.166427,1.0,ns,RUS-O
+POS profile,pos_adv_ratio,Adverbs,50,50,0.0856,0.0958,0.0154,0.0253,-0.488,0.016434,0.028358,0.110282,0.765674,ns,RUS-T
+POS profile,pos_propn_ratio,Proper nouns,50,50,0.0519,0.0606,0.0273,0.0269,-0.321,0.111889,0.117597,0.274393,1.0,ns,RUS-T
+POS profile,pos_pron_ratio,Pronouns,50,50,0.0874,0.0936,0.0198,0.0299,-0.241,0.230183,0.423887,0.706479,1.0,ns,RUS-T
+POS profile,personal_pron_ratio,Personal pronouns,50,50,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,1.0,ns,
+POS profile,animate_noun_ratio,Animate nouns,50,50,0.314,0.3431,0.0914,0.1034,-0.297,0.140258,0.277576,0.539732,1.0,ns,RUS-T
+Syntax,avg_tree_depth,Mean dependency tree depth,50,50,3.8277,3.6988,0.44,0.4582,0.287,0.154555,0.158598,0.346933,1.0,ns,RUS-O
+Syntax,predicate_coord_ratio,Predicate-coordination ratio,50,50,0.251,0.1772,0.1012,0.0857,0.787,0.000154,0.000355,0.002074,0.010664,**,RUS-O
+Readability,flesch_ru,Flesch (RU),50,50,29.8365,32.2983,7.3455,11.2228,-0.26,0.197397,0.364652,0.63814,1.0,ns,RUS-T
+Readability,fog_index,FOG index,50,50,14.9012,14.1628,1.6616,2.3275,0.365,0.070933,0.190253,0.391698,1.0,ns,RUS-O
+Readability,ari,ARI,50,50,8.7569,8.484,1.4405,1.9505,0.159,0.428134,0.903974,0.988722,1.0,ns,RUS-O
+Readability,coleman_liau,Coleman-Liau,50,50,12.847,12.5983,1.6809,2.6173,0.113,0.573216,0.838848,0.978656,1.0,ns,RUS-O
+Word & sentence,avg_word_len,Mean word length (chars),50,50,4.9956,4.9936,0.1913,0.3087,0.008,0.969012,0.636759,0.814493,1.0,ns,RUS-O
+Word & sentence,avg_syllables,Mean syllables per word,50,50,1.9919,1.9725,0.0747,0.1216,0.192,0.339473,0.492738,0.737728,1.0,ns,RUS-O
+Word & sentence,avg_sent_words,Mean sentence length (words),50,50,8.3584,7.5483,2.1674,2.0214,0.387,0.056133,0.052306,0.166427,1.0,ns,RUS-O
+Word & sentence,avg_sent_chars,Mean sentence length (chars),50,50,53.7302,48.611,14.0539,13.5382,0.371,0.066602,0.068241,0.183724,1.0,ns,RUS-O
+Grammar,past_tense_ratio,Past tense,50,50,0.5766,0.4765,0.1402,0.217,0.548,0.007324,0.067203,0.183724,1.0,ns,RUS-O
+Grammar,present_tense_ratio,Present tense,50,50,0.208,0.2852,0.1252,0.1916,-0.477,0.019034,0.087326,0.218314,1.0,ns,RUS-T
+Grammar,future_tense_ratio,Future tense,50,50,0.0436,0.0466,0.0243,0.0436,-0.087,0.665236,0.341293,0.628698,1.0,ns,RUS-T
+Grammar,imperative_ratio,Imperative mood,50,50,0.0292,0.0323,0.024,0.0257,-0.125,0.532194,0.543928,0.761499,1.0,ns,RUS-T
+Grammar,quest_sent_ratio,Interrogative sentences,50,50,0.0796,0.0956,0.0443,0.0802,-0.246,0.221714,0.50587,0.737728,1.0,ns,RUS-T
+Grammar,excl_sent_ratio,Exclamatory sentences,50,50,0.2451,0.2667,0.1252,0.1468,-0.159,0.428623,0.47553,0.737728,1.0,ns,RUS-T
+Additional,active_voice_ratio,Active voice ratio,50,50,0.7648,0.7688,0.0441,0.0708,-0.068,0.736447,0.986249,1.0,1.0,ns,RUS-T
+Additional,punct_diversity,Punctuation diversity,50,50,0.7689,0.7544,0.1043,0.1401,0.117,0.558559,0.984969,1.0,1.0,ns,RUS-O
