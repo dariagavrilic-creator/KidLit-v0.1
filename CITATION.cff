@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the paper below."
+title: "KidLit v0.1 — data and code"
+abstract: >-
+  Reproducibility package for the paper "KidLit by Numbers: Linguistic Profiles
+  of Original and Translated Russian 0+ Books". Contains bibliographic metadata
+  for 100 Russian-language 0+ children's books, per-text values of all metrics
+  reported in the paper, the processing and statistics notebooks, and the
+  records of a manual validation of the NLP pipeline. The texts themselves are
+  in copyright and are not distributed.
+type: dataset
+version: "0.1.0"
+license: CC-BY-4.0
+authors:
+  - family-names: Gavrilik
+    given-names: Daria
+    orcid: "https://orcid.org/0009-0002-4410-1965"
+    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+  - family-names: Ostraia
+    given-names: Aleksandra
+    orcid: "https://orcid.org/0009-0003-9458-654X"
+    affiliation: "Peter the Great St. Petersburg Polytechnic University"
+keywords:
+  - children's literature
+  - corpus linguistics
+  - Russian
+  - translation studies
+  - readability
+preferred-citation:
+  type: conference-paper
+  title: "KidLit by Numbers: Linguistic Profiles of Original and Translated Russian 0+ Books"
+  year: 2026
+  collection-title: "Proceedings of the 9th International Conference on Natural Language and Speech Processing (ICNLSP 2026)"
+  conference:
+    name: "9th International Conference on Natural Language and Speech Processing"
+    city: Trento
+    country: IT
+  authors:
+    - family-names: Gavrilik
+      given-names: Daria
+      orcid: "https://orcid.org/0009-0002-4410-1965"
+    - family-names: Ostraia
+      given-names: Aleksandra
+      orcid: "https://orcid.org/0009-0003-9458-654X"
