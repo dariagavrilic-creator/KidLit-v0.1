@@ -8,16 +8,14 @@ Reproducibility package for
 > (ICNLSP 2026), Trento.
 
 KidLit v0.1 is a balanced corpus of 100 contemporary Russian-language
-children's books carrying the publisher's "0+" age marker: 50 original works
+children's books with "0+" age marker: 50 original works
 (**RUS-O**) and 50 translations into Russian (**RUS-T**). The paper compares
 the two subcorpora on 35 metrics in a main block and 17 in an extended
 morphological block.
 
 ## The texts are not distributed
 
-The 100 books are in copyright. Redistributing them would require agreements
-with every rights holder involved, including those of the source works and of
-the translations, which we have not obtained. The restriction extends to any
+The 100 books are in copyright. We do not redistribute the texts. The restriction extends to any
 representation from which the texts could be reconstructed, so no tokenised or
 morphologically annotated form of the running text is included here either.
 
@@ -93,10 +91,6 @@ here.
 pipeline fault — the `PronType` feature is not populated by
 `ru_core_news_sm` — not a linguistic finding. It is released for transparency
 and must not be used.
-
-**Publisher counts.** Table 1 of the paper reports 27 publishers for RUS-O;
-counted from `metadata.csv` after normalising imprint spellings the figure is
-26. The count for RUS-T (21) is correct.
 
 ## Validation of the NLP pipeline
 
